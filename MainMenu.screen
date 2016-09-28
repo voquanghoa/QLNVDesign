@@ -9,7 +9,7 @@
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="6"/>
       <widgetChanges xsi:type="o:Delete" ref="3"/>
-      <widgets ref="5" text="Tiêu đề"/>
+      <widgets ref="5" width="100" text="Tiêu đề"/>
       <widgets ref="2" width="409"/>
     </overrides>
   </widgets>
@@ -22,7 +22,7 @@
   <widgets xsi:type="model:Link" id="16" x="264" y="248" text="Quản lý địa điểm" measuredWidth="112" measuredHeight="25" link="DiaDiem.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="17" x="264" y="320" text="Quản lý nhân viên" measuredWidth="119" measuredHeight="25">
+  <widgets xsi:type="model:Link" id="17" x="264" y="320" text="Quản lý nhân viên" measuredWidth="119" measuredHeight="25" link="NhanVien.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Link" id="18" x="264" y="353" text="Quản lý công việc" measuredWidth="119" measuredHeight="25">

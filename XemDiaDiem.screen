@@ -10,20 +10,17 @@
       <widgetChanges xsi:type="o:Delete" ref="3"/>
       <widgets ref="2" width="409"/>
       <widgets ref="4" link="MainMenu.screen"/>
-      <widgets ref="5" text="Thêm Địa điểm"/>
+      <widgets ref="5" text="Xem Địa điểm"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="48" y="202" text="Tên" measuredWidth="35" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="11" x="91" y="202" width="318" text="Nhập tên" measuredWidth="318" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="10" x="48" y="202" text="Tên: Tên địa điểm" measuredWidth="154" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Map" id="12" x="41" y="304" width="388" height="312" measuredWidth="388" measuredHeight="312"/>
-  <widgets xsi:type="model:Button" id="13" x="162" y="642" width="103" text="Lưu" measuredWidth="103" measuredHeight="42" link="DiaDiem.screen">
+  <widgets xsi:type="model:Button" id="13" x="162" y="642" width="103" text="Quay lại" measuredWidth="103" measuredHeight="42" link="DiaDiem.screen">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="14" x="47" y="256" text="Chọn địa điểm" measuredWidth="133" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="14" x="47" y="256" text="Địa điểm" measuredWidth="84" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <hRuler/>

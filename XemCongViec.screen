@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="2" x="10" y="10" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="31" y="111" measuredWidth="409" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+      <widgets ref="2" width="409"/>
+      <widgets ref="4" link="MainMenu.screen"/>
+      <widgets ref="5" text="Xem công việc"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="47" y="184" text="Tiêu đề: Tiêu đề công việc" measuredWidth="229" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Map" id="12" x="41" y="384" width="388" height="241" measuredWidth="388" measuredHeight="241"/>
+  <widgets xsi:type="model:Button" id="13" x="184" y="720" width="103" text="Quay lại" measuredWidth="103" measuredHeight="42" link="DiaDiem.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="47" y="224" text="Người thực hiện" measuredWidth="148" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="15" x="200" y="225" text="Tên người dùng" measuredWidth="135" measuredHeight="33" link="XemNhanVien.screen">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="47" y="259" text="Vị trí" measuredWidth="47" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="17" x="128" y="260" text="Tên vị trí" measuredWidth="74" measuredHeight="33" link="XemNhanVien.screen">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="18" x="216" y="264" text="o" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="256" y="265" text="Bấm vào để focus bản đồ" measuredWidth="175" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="47" y="304" text="Hiển thị thông tin báo cáo" measuredWidth="235" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="41" y="352" text="Bản đồ thể hiện đường đi, vị trí hiện tại user, vị trí công việc" measuredWidth="398" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="56" y="672" text="Báo cáo kết quả của nhân viên, các ảnh chụp..." measuredWidth="321" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
