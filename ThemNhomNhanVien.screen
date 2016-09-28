@@ -9,7 +9,9 @@
       <widgetChanges xsi:type="o:Delete" ref="6"/>
       <widgetChanges xsi:type="o:Delete" ref="3"/>
       <widgets ref="2" width="409"/>
-      <widgets ref="4" link="MainMenu.screen"/>
+      <widgets ref="4" link="TinNhan.screen">
+        <attributes key="icon" value="assets/ic-arrow-back (medium)"/>
+      </widgets>
       <widgets ref="5" text="Thêm nhóm nhân viên"/>
     </overrides>
   </widgets>

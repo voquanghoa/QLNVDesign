@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="2" x="10" y="10" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="31" y="111" measuredWidth="409" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+      <widgets ref="2" width="409"/>
+      <widgets ref="4" link="TinNhan.screen">
+        <attributes key="icon" value="assets/ic-arrow-back (medium)"/>
+      </widgets>
+      <widgets ref="5" text="Chat"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="48" y="202" text="Group" measuredWidth="62" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="152" y="264" width="153" text="Bắt đầu nhắn" measuredWidth="153" measuredHeight="42" link="DiaDiem.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="15" x="128" y="208" width="289" text="Chọn group từ danh sách" measuredWidth="289" measuredHeight="31">
+    <font size="17px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
