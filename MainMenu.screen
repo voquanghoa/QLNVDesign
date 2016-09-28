@@ -35,7 +35,7 @@
   <widgets xsi:type="model:Link" id="25" x="266" y="456" text="Đăng xuất" measuredWidth="69" measuredHeight="25" link="LoginScreen.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="26" x="266" y="405" text="Nhắn tin" measuredWidth="56" measuredHeight="25">
+  <widgets xsi:type="model:Link" id="26" x="266" y="404" text="Nhắn tin" measuredWidth="56" measuredHeight="25" link="TinNhan.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:HLine" id="27" x="239" y="429" width="200" measuredWidth="200" measuredHeight="6"/>

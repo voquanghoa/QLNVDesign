@@ -35,7 +35,7 @@
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Map" id="21" x="47" y="528" width="382" height="176" measuredWidth="382" measuredHeight="176"/>
-  <widgets xsi:type="model:Link" id="22" x="56" y="440" text="Task hiện tại" measuredWidth="108" measuredHeight="36">
+  <widgets xsi:type="model:Link" id="22" x="56" y="440" text="Công việc đang làm" measuredWidth="176" measuredHeight="36" link="XemCongViec.screen">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Link" id="23" x="240" y="440" text="Nhóm nhân viên" measuredWidth="147" measuredHeight="36" link="XemNhomNhanVien.screen">

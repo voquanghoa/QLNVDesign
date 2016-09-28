@@ -18,7 +18,7 @@
   <widgets xsi:type="model:Label" id="10" x="48" y="202" text="Group" measuredWidth="62" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="13" x="152" y="264" width="153" text="Bắt đầu nhắn" measuredWidth="153" measuredHeight="42" link="DiaDiem.screen">
+  <widgets xsi:type="model:Button" id="13" x="152" y="264" width="153" text="Bắt đầu nhắn" measuredWidth="153" measuredHeight="42" link="ChatTinNhan.screen">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="15" x="128" y="208" width="289" text="Chọn group từ danh sách" measuredWidth="289" measuredHeight="31">

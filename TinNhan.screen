@@ -9,12 +9,12 @@
       <widgetChanges xsi:type="o:Insert" newIndex="5">
         <object xsi:type="model:List" id="8" x="16" y="73" width="379" height="569" text="| Tin nhắn 1&#xD;&#xA;| Tin nhắn 2&#xD;&#xA;| Tin nhắn 3&#xD;&#xA;| Tin nhắn 4&#xD;&#xA;| Tin nhắn 5&#xD;&#xA;| Tin nhắn 6">
           <font size="24px"/>
-          <items link="XemDiaDiem.screen" text="| Tin nhắn 1"/>
-          <items link="XemDiaDiem.screen" text="| Tin nhắn 2"/>
-          <items link="XemDiaDiem.screen" text="| Tin nhắn 3"/>
-          <items link="XemDiaDiem.screen" text="| Tin nhắn 4"/>
-          <items link="XemDiaDiem.screen" text="| Tin nhắn 5"/>
-          <items link="XemDiaDiem.screen" text="| Tin nhắn 6"/>
+          <items link="ThemTinNhan.screen" text="| Tin nhắn 1"/>
+          <items link="ThemTinNhan.screen" text="| Tin nhắn 2"/>
+          <items link="ThemTinNhan.screen" text="| Tin nhắn 3"/>
+          <items link="ThemTinNhan.screen" text="| Tin nhắn 4"/>
+          <items link="ThemTinNhan.screen" text="| Tin nhắn 5"/>
+          <items link="ThemTinNhan.screen" text="| Tin nhắn 6"/>
         </object>
       </widgetChanges>
       <widgetChanges xsi:type="o:Delete" ref="6"/>
