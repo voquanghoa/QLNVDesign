@@ -16,10 +16,10 @@
   <widgets xsi:type="model:Icon" id="13" x="229" y="65" width="220" height="134" measuredWidth="220" measuredHeight="134" icon="assets/ic-video-label (large)"/>
   <widgets xsi:type="model:Icon" id="12" x="268" y="112" measuredWidth="32" measuredHeight="32" icon="assets/ic-account-box (large)"/>
   <widgets xsi:type="model:HLine" id="14" x="239" y="198" width="204" measuredWidth="204" measuredHeight="6"/>
-  <widgets xsi:type="model:Link" id="15" x="264" y="216" text="Dashboard" measuredWidth="75" measuredHeight="25">
+  <widgets xsi:type="model:Link" id="15" x="264" y="216" text="Dashboard" measuredWidth="75" measuredHeight="25" link="Dashboard.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="16" x="264" y="248" text="Quản lý địa điểm" measuredWidth="112" measuredHeight="25">
+  <widgets xsi:type="model:Link" id="16" x="264" y="248" text="Quản lý địa điểm" measuredWidth="112" measuredHeight="25" link="DiaDiem.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Link" id="17" x="264" y="320" text="Quản lý nhân viên" measuredWidth="119" measuredHeight="25">
