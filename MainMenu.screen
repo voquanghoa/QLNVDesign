@@ -28,7 +28,7 @@
   <widgets xsi:type="model:Link" id="18" x="264" y="353" text="Quản lý công việc" measuredWidth="119" measuredHeight="25">
     <font underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Link" id="19" x="264" y="280" text="Quản lý nhóm nhân viên" measuredWidth="160" measuredHeight="25">
+  <widgets xsi:type="model:Link" id="19" x="264" y="280" text="Quản lý nhóm nhân viên" measuredWidth="160" measuredHeight="25" link="NhomNhanVien.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:HLine" id="20" x="239" y="384" width="200" measuredWidth="200" measuredHeight="6"/>
