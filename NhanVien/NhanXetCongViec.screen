@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="229" y="-96" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="250" y="2" measuredWidth="409" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+      <widgets ref="5" width="226" text="Nhận xét công việc">
+        <font size="19px"/>
+      </widgets>
+      <widgets ref="2" width="409"/>
+      <widgets ref="4" link="Dashboard.screen">
+        <attributes key="icon" value="assets/ic-arrow-back (medium)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="266" y="102" width="366" text="Thêm nhận xét công việc" measuredWidth="366" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="32" x="260" y="144" width="389" height="97" text="Nhận xét về công việc" measuredWidth="389" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="504" y="568" width="120" height="41" text="Hoàn tất" measuredWidth="120" measuredHeight="41" link="Dashboard.screen">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="34" x="320" y="568" width="120" height="41" text="Hủy bỏ" measuredWidth="120" measuredHeight="41" link="Dashboard.screen">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="35" x="328" y="250" width="276" height="189" measuredWidth="276" measuredHeight="189"/>
+  <widgets xsi:type="model:Button" id="36" x="429" y="452" text="Thêm ảnh" measuredWidth="86" measuredHeight="27">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>

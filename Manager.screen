@@ -15,7 +15,7 @@
   <widgets xsi:type="model:TextField" id="5" x="344" y="376" width="256" text="********" measuredWidth="256" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="6" x="368" y="440" text="Đăng nhập" measuredWidth="91" measuredHeight="27" link="Dashboard.screen">
+  <widgets xsi:type="model:Button" id="6" x="368" y="440" text="Đăng nhập" measuredWidth="91" measuredHeight="27" link="Manager/Dashboard.screen">
     <font/>
   </widgets>
   <hRuler/>

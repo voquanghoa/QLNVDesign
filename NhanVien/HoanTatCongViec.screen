@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="229" y="-96" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="250" y="2" measuredWidth="409" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+      <widgets ref="5" width="226" text="Hoàn tất công việc">
+        <font size="19px"/>
+      </widgets>
+      <widgets ref="2" width="409"/>
+      <widgets ref="4" link="Dashboard.screen">
+        <attributes key="icon" value="assets/ic-arrow-back (medium)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="266" y="102" width="366" text="Hoàn thành công việc: tên công việc" measuredWidth="366" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="29" x="270" y="150" width="378" height="90" text="Một số thông tin về công việc : địa điểm, thời gian bắt đầu/kết thúc, tổng thời gian, quảng đường đã đi chuyển..." measuredWidth="378" measuredHeight="90">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="30" x="270" y="280" width="359" text="A, B, C, D" measuredWidth="359" measuredHeight="30" selection="0">
+    <font/>
+    <items x="0" y="0" width="85" height="30" text="A"/>
+    <items x="85" y="0" width="87" height="30" text="B"/>
+    <items x="172" y="0" width="89" height="30" text="C"/>
+    <items x="261" y="0" width="98" height="30" text="D"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="282" y="250" text="Đánh giá công việc" measuredWidth="172" measuredHeight="33">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="32" x="270" y="344" width="358" height="184" text="Nhận xét về công việc" measuredWidth="358" measuredHeight="184">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="472" y="560" width="144" height="41" text="Hoàn tất" measuredWidth="144" measuredHeight="41" link="Dashboard.screen">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="34" x="282" y="560" width="134" height="41" text="Hủy bỏ" measuredWidth="134" measuredHeight="41" link="Dashboard.screen">
+    <font size="19px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>

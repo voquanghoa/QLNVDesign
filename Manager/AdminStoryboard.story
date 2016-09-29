@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <story:Storyboard xmlns:story="http://wireframesketcher.com/1.0/model/story">
   <panels id="zI0sR1x98uCcw69A4HU9IRVAvto=" x="180" y="10">
-    <screen href="LoginScreen.screen#/"/>
+    <screen href="../Manager.screen#/"/>
   </panels>
   <panels id="11HgjndcDNbUyHX7ZB2gUzAFMCM=" x="370" y="100">
     <screen href="MainMenu.screen#/"/>
