@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="229" y="-96" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="250" y="2" measuredWidth="409" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+      <widgets ref="5" width="226" text="Hoàn tất công việc">
+        <font size="19px"/>
+      </widgets>
+      <widgets ref="2" width="409"/>
+      <widgets ref="4" link="MainMenu.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="487" y="288" width="128" height="41" text="Nghỉ phép" measuredWidth="128" measuredHeight="41" link="Dashboard.screen">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="35" x="487" y="216" text="Đổi mật khẩu" measuredWidth="129" measuredHeight="32">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="265" y="84" text="Mật khẩu cũ" measuredWidth="105" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="37" x="405" y="84" width="211" text="***************************************************************" measuredWidth="211" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="266" y="128" text="Mật khẩu mới" measuredWidth="117" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="39" x="405" y="127" width="211" text="***************************************************************" measuredWidth="211" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="40" x="266" y="168" text="Nhập lại" measuredWidth="73" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="41" x="405" y="168" width="211" text="***************************************************************" measuredWidth="211" measuredHeight="30">
+    <font size="19px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>

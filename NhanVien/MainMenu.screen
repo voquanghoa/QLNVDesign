@@ -9,8 +9,9 @@
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="6"/>
       <widgetChanges xsi:type="o:Delete" ref="3"/>
-      <widgets ref="5" width="100" text="Tiêu đề"/>
+      <widgets ref="5" width="296" text="Menu"/>
       <widgets ref="2" width="409"/>
+      <widgets ref="4" link="Dashboard.screen"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Icon" id="13" x="229" y="65" width="220" height="134" measuredWidth="220" measuredHeight="134" icon="assets/ic-video-label (large)"/>
@@ -20,23 +21,23 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:HLine" id="20" x="239" y="320" width="200" measuredWidth="200" measuredHeight="6"/>
-  <widgets xsi:type="model:Link" id="25" x="266" y="456" text="Đăng xuất" measuredWidth="69" measuredHeight="25" link="../Manager.screen">
+  <widgets xsi:type="model:Link" id="25" x="266" y="456" text="Đăng xuất" measuredWidth="69" measuredHeight="25" link="../NhanVien.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="26" x="268" y="405" text="Nhắn tin" measuredWidth="56" measuredHeight="25" link="TinNhan.screen">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:HLine" id="27" x="239" y="429" width="200" measuredWidth="200" measuredHeight="6"/>
-  <widgets xsi:type="model:Link" id="28" x="264" y="248" text="Việc được giao" measuredWidth="102" measuredHeight="25" link="Dashboard.screen">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Link" id="29" x="264" y="288" text="Việc đã hoàn tất" measuredWidth="107" measuredHeight="25" link="Dashboard.screen">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Link" id="30" x="268" y="337" text="Các báo cáo" measuredWidth="86" measuredHeight="25" link="Dashboard.screen">
+  <widgets xsi:type="model:Link" id="26" x="268" y="405" text="Nhắn tin" measuredWidth="56" measuredHeight="25" link="ChatTinNhan.screen">
     <font underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Link" id="31" x="268" y="368" text="Cá nhân" measuredWidth="58" measuredHeight="25" link="Dashboard.screen">
+  <widgets xsi:type="model:HLine" id="27" x="239" y="429" width="200" measuredWidth="200" measuredHeight="6"/>
+  <widgets xsi:type="model:Link" id="28" x="264" y="248" text="Việc được giao" measuredWidth="102" measuredHeight="25" link="CongViecDuocGiao.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="29" x="264" y="288" text="Việc đã hoàn tất" measuredWidth="107" measuredHeight="25" link="CongViecDaHoanTat.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="30" x="268" y="337" text="Các báo cáo" measuredWidth="86" measuredHeight="25" link="BaoCao.screen">
+    <font underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="31" x="268" y="368" text="Cá nhân" measuredWidth="58" measuredHeight="25" link="CaNhan.screen">
     <font/>
   </widgets>
   <hRuler/>
