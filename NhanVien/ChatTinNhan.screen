@@ -12,11 +12,7 @@
       <widgets ref="4" link="MainMenu.screen">
         <attributes key="icon" value="assets/ic-arrow-back (medium)"/>
       </widgets>
-      <widgets ref="5" text="Chat với nhóm [Tên nhóm]">
-        <itemChanges xsi:type="o:Insert">
-          <object xsi:type="model:Item" text="Tên nhóm"/>
-        </itemChanges>
-      </widgets>
+      <widgets ref="5" text="Chat"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Group" id="19" x="41" y="184" width="387" height="329" measuredWidth="387" measuredHeight="329">
